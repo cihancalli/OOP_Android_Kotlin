@@ -21,5 +21,22 @@ class MainActivity : AppCompatActivity() {
         println(calli.name)
         println(calli.age)
         calli.Sing()
+
+        println("------Polymorphism------")
+
+        //Static Polymorphism
+        val process = Processes()
+        println(process.multiplication())
+        println(process.multiplication(2,3))
+        println(process.multiplication(2,3,4))
+
+        //Dynamic Polymorphism
+        val dog = Dog()
+        dog.Noise()
+        dog.dogFunction()
+
+        val cat = Animal()
+        cat.Noise()
+
     }
 }
