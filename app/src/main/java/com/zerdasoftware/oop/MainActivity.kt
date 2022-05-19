@@ -11,5 +11,9 @@ class MainActivity : AppCompatActivity() {
         println("------Classes------")
         val user = User("Cihan",30)
         val otheruser = User("Çallı",30)
+
+        println("------Encapsulation------")
+        val cihan = Artist("Cihan",30,"musician")
+        println(cihan.name)
     }
 }
