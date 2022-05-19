@@ -15,5 +15,11 @@ class MainActivity : AppCompatActivity() {
         println("------Encapsulation------")
         val cihan = Artist("Cihan",30,"musician")
         println(cihan.name)
+
+        println("------Inheritance------")
+        val calli = CustomArtist("Cihan",30,"musician")
+        println(calli.name)
+        println(calli.age)
+        calli.Sing()
     }
 }

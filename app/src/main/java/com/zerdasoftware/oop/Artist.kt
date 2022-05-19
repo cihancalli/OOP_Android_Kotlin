@@ -1,6 +1,6 @@
 package com.zerdasoftware.oop
 
-class Artist(name:String, age:Int, profession:String) {
+open class Artist(name:String, age:Int, profession:String) {
 
     //Encapsulation
     private var gender:String? = ""
