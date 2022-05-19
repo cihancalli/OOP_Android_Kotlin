@@ -38,5 +38,14 @@ class MainActivity : AppCompatActivity() {
         val cat = Animal()
         cat.Noise()
 
+        println("------Abstraction & Interface ------")
+        user.humanFunction()
+        var guitar = Guitar()
+        guitar.brand = "Guitar Brand"
+        guitar.electro = true
+        guitar.info()
+        println(guitar.Room)
+
+
     }
 }

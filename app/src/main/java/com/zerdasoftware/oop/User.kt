@@ -1,6 +1,6 @@
 package com.zerdasoftware.oop
 
-class User {
+class User : Human {
 
     var name:String?=null
     var age:Int?=null
