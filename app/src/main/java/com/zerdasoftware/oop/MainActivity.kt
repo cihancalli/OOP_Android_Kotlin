@@ -46,6 +46,20 @@ class MainActivity : AppCompatActivity() {
         guitar.info()
         println(guitar.Room)
 
+        println("------Lambda Expressions ------")
+        PrintText("Test")
 
+        val PrintTextLambda = {setString:String -> println(setString)}
+        PrintTextLambda("Test Lambda")
+
+        var multiplicationLambda = {a:Int,b:Int -> a*b}
+        println(multiplicationLambda(7,9))
+        var multiplicationLambdaV2 :(Int,Int)->Int = {a,b -> a*b}
+        println(multiplicationLambdaV2(12,9))
+
+    }
+
+    fun PrintText(string: String){
+        println(string)
     }
 }
